@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+  font-family: "Inter", serif;
+}
+
+.App-header {
+  padding: 10px 20px;
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: #0892d0;
+}
+
+.App-header > button {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+}
+
+.App-header > div,
+span {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+
+.App-content {
+  background-color: #282934;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  font-size: 50px;
+  font-weight: bold;
+  color: #0892d0;
+}
+
+.shadow {
+  -moz-box-shadow: inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow: inset 0 0 10px #000000;
+}
+
+.nav-items {
+  list-style-type: none;
+}
+
+.button {
+  background-color: #0892d0;
+  border-color: #0892d0;
+  width: 100px;
+  height: 75px;
+  border-width: 3px;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: bolder;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  color: #282c34;
+}
